@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Gurmukhi;
+    src: url('font/gurbaniwebthick.ttf');
+}
+
+.pankti {
+    font-family: Gurmukhi !important;
+}
+
+span.pankti {
+    font-size: 32pt;
+}

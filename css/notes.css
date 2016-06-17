@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+    padding-left:0;
+}
+
+li {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 14pt;
+}
+
+li:hover {
+    background-color: #FFCCFF;
+}

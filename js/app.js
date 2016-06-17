@@ -3,7 +3,7 @@ var app = angular.module('igurbani-reveal', []);
 app.controller("slideController", ['$scope', '$window', '$http',
 	function($scope, $window, $http) {
 		$scope.panktis = [];
-		$http.jsonp(`http://igurbani.herokuapp.com/api/shabads/1?callback=JSON_CALLBACK`)
+		$http.jsonp(`https://igurbani.herokuapp.com/api/shabads/1?callback=JSON_CALLBACK`)
 			.then(function successCallback(response) {
 				$scope.panktis = response.data;
 			}, function errorCallback(response) {
